@@ -84,12 +84,12 @@
 		<repository>
 			<id>mvn-repo-releases</id>
 			<name>Release Repo</name>
-			<url>git:releases://git@bitbucket.org:maxicredito/mvn-repo.git</url>
+			<url>git:releases://git@github.com:clairton/mvn-repo.git</url>
 		</repository>
 		<snapshotRepository>
 			<id>mvn-repo-snapshots</id>
 			<name>Snapshot Repo</name>
-			<url>git:snapshots://git@bitbucket.org:maxicredito/mvn-repo.git</url>
+			<url>git:snapshots://git@github.com:clairton/mvn-repo.git</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<repositories>
@@ -112,28 +112,6 @@
 				<enabled>true</enabled>
 			</snapshots>
 			<url>https://raw.github.com/clairton/mvn-repo/snapshots</url>
-		</repository>
-		<repository>
-			<id>maxicredito-mvn-repo-releases</id>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<url>https://api.bitbucket.org/1.0/repositories/maxicredito/mvn-repo/raw/releases</url>
-			<!--<url>git:releases://git@bitbucket.org:maxicredito/mvn-repo.git</url> -->
-		</repository>
-		<repository>
-			<id>maxicredito-mvn-repo-snapshots</id>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<url>https://api.bitbucket.org/1.0/repositories/maxicredito/mvn-repo/raw/snapshots</url>
-			<!--<url>git:snapshots://git@bitbucket.org:maxicredito/mvn-repo.git</url> -->
 		</repository>
 	</repositories>
 </project>
